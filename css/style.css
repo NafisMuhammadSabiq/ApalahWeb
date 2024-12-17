@@ -71,6 +71,9 @@ html {
 
 section .gambar {
   border-radius: 10px;
+  width: 600px;  /* Mengatur lebar gambar */
+  height: 1100px; /* Mengatur tinggi gambar */
+  object-fit: cover; /* Menjaga proporsi gambar */
 }
 
 section .ucapan {
