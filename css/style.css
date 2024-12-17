@@ -165,7 +165,11 @@ section.after {
   color: white;
   font-weight: 500;
   font-size: 1.5rem;
-  font-family: '
+  font-family: ' Poppins', sans-serif;
+  text-align: center;
+  margin: 0;
+  line-height: 70px;
+  -webkit-user-select: none;
 }
 
 .page-halaman1 section.halaman1 {
@@ -197,7 +201,7 @@ section.after {
 }
 
 .page-halaman2 section.halaman4 {
-  -webkit-transition-delay: 0.05s;
+  -webkit-transition-delay: 0.15s;
 }
 
 .buka_menu section {
@@ -209,24 +213,20 @@ section.after {
   -webkit-transition-delay: 0.15s;
 }
 
-
 .buka_menu section.halaman2 {
   -webkit-transform: translateY(140px);
   -webkit-transition-delay: 0.1s;
 }
-
 
 .buka_menu section.halaman3 {
   -webkit-transform: translateY(210px);
   -webkit-transition-delay: 0.05s;
 }
 
-
 .buka_menu section.halaman4 {
   -webkit-transform: translateY(280px);
   -webkit-transition-delay: 0s;
 }
-
 
 .buka_menu.page-halaman1 section.halaman1 {
   -webkit-transition-delay: 0s;
