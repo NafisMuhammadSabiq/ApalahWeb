@@ -166,3 +166,111 @@ section.after {
   font-weight: 500;
   font-size: 1.5rem;
   font-family: '
+}
+
+.page-halaman1 section.halaman1 {
+  -webkit-transition-delay: 0s;
+}
+
+.page-halaman1 section.halaman2 {
+  -webkit-transition-delay: 0.15s;
+}
+
+.page-halaman1 section.halaman3 {
+  -webkit-transition-delay: 0.1s;
+}
+
+.page-halaman1 section.halaman4 {
+  -webkit-transition-delay: 0.05s;
+}
+
+.page-halaman2 section.halaman1 {
+  -webkit-transition-delay: 0s;
+}
+
+.page-halaman2 section.halaman2 {
+  -webkit-transition-delay: 0.05s;
+}
+
+.page-halaman2 section.halaman3 {
+  -webkit-transition-delay: 0.1s;
+}
+
+.page-halaman2 section.halaman4 {
+  -webkit-transition-delay: 0.05s;
+}
+
+.buka_menu section {
+  cursor: pointer;
+}
+
+.buka_menu section.halaman1 {
+  -webkit-transform: translateY(70px);
+  -webkit-transition-delay: 0.15s;
+}
+
+
+.buka_menu section.halaman2 {
+  -webkit-transform: translateY(140px);
+  -webkit-transition-delay: 0.1s;
+}
+
+
+.buka_menu section.halaman3 {
+  -webkit-transform: translateY(210px);
+  -webkit-transition-delay: 0.05s;
+}
+
+
+.buka_menu section.halaman4 {
+  -webkit-transform: translateY(280px);
+  -webkit-transition-delay: 0s;
+}
+
+
+.buka_menu.page-halaman1 section.halaman1 {
+  -webkit-transition-delay: 0s;
+}
+
+.buka_menu.page-halaman1 section.halaman2 {
+  -webkit-transition-delay: 0.05s;
+}
+
+.buka_menu.page-halaman1 section.halaman3 {
+  -webkit-transition-delay: 0.1s;
+}
+
+.buka_menu.page-halaman1 section.halaman4 {
+  -webkit-transition-delay: 0.15s;
+}
+
+.buka_menu.page-halaman2 section.halaman1 {
+  -webkit-transition-delay: 0s;
+}
+
+.buka_menu.page-halaman2 section.halaman2 {
+  -webkit-transition-delay: 0.05s;
+}
+
+.buka_menu.page-halaman2 section.halaman3 {
+  -webkit-transition-delay: 0.1s;
+}
+
+.buka_menu.page-halaman2 section.halaman4 {
+  -webkit-transition-delay: 0.15s;
+}
+
+/*Animasi Bekgron*/
+@keyframes animasiBegron {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
