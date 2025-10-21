@@ -2,9 +2,7 @@
 
 body,
 html {
-  -webkit-tap-highlight-color: transparent;
-  height: 100%;
-  background: linear-gradient(-45deg, #7B1FA2, #C2185B, #D81B60, #F06292);
+  background: linear-gradient(-45deg, #2E2A3B, #3C3B4E, #49475B, #5A4E63);
   background-size: 400% 400%;
   animation: animasiBegron 15s ease infinite;
   width: 100%;
@@ -20,15 +18,15 @@ html {
 }
 
 .kontener2 h1 {
-  color: #f5f5f5;
+  color: #E0D6EB;
 }
 
 .kontener2 .tombol {
   padding: 10px 30px;
   background: transparent;
-  color: #F5F5F5;
+  color: #E0D6EB;
+  border: 2px solid #E0D6EB;
   outline: none;
-  border: 2px solid #F5F5F5;
   border-radius: 10px;
   font-weight: bold;
   font-family: 'Poppins', sans-serif;
@@ -36,10 +34,10 @@ html {
 
 .kontener2 .tombol:hover {
   cursor: pointer;
-  background: #F5F5F5;
-  color: #7B1FA2;
+  background: #E0D6EB;
+  color: #2E2A3B;
+  border: 2px solid #E0D6EB;
   outline: none;
-  border: 2px solid #F5F5F5;
   border-radius: 10px;
   font-weight: bold;
   font-family: 'Poppins', sans-serif;
@@ -52,7 +50,7 @@ html {
 
 .dalemnya_kontener {
   text-align: center;
-  background: #6A1B9A;
+  background: #3C3B4E;
   width: 100%;
   height: 94%;
   overflow: hidden;
@@ -80,7 +78,7 @@ section .ucapan {
   font-weight: bold;
   font-family: 'Poppins', sans-serif;
   font-size: 24px;
-  color: #F5F5F5;
+  color: #E0D6EB;
 }
 
 section .isiucapan {
@@ -92,7 +90,7 @@ section .isiucapan {
 }
 
 section.halaman1 {
-  background: #D32F2F;
+  background: #4A3F5A;
   -webkit-transition-delay: 0s;
 }
 
@@ -104,11 +102,11 @@ section.halaman1 {
 .halaman1 .isiucapan1 {
   display: inline-block;
   width: 80%;
-  color: #f5f5f5;
+  color: #E0D6EB;
 }
 
 section.halaman2 {
-  background: #F06292;
+  background: #5E4B66;
   -webkit-transition-delay: 0.05s;
 }
 
@@ -120,11 +118,11 @@ section.halaman2 {
 .halaman2 .isiucapan2 {
   display: inline-block;
   width: 80%;
-  color: #404040;
+  color: #E0D6EB;
 }
 
 section.halaman3 {
-  background: #E57373;
+  background: #766283;
   -webkit-transition-delay: 0.1s;
 }
 
@@ -136,11 +134,11 @@ section.halaman3 {
 .halaman3 .isiucapan3 {
   display: inline-block;
   width: 80%;
-  color: #f5f5f5;
+  color: #E0D6EB;
 }
 
 section.halaman4 {
-  background: #FFAB91;
+  background: #9A8CAA;
   -webkit-transition-delay: 0.15s;
 }
 
