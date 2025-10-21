@@ -1,8 +1,16 @@
+/*Author    : Wafa Rifqi Anafin*/
+/*Github    : https://github.com/wafarifki*/
+/*Facebook  : https://facebook.com/wafarifkianafin*/
+/*Instagram : https://instagram.com/wafarifki_*/
+/*Website   : https://wafarifki.tk*/
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 body,
 html {
-  background: linear-gradient(-45deg, #2E2A3B, #3C3B4E, #49475B, #5A4E63);
+  -webkit-tap-highlight-color: transparent;
+  height: 100%;
+  background: linear-gradient(-45deg, #f1ca89, #f29191, #907fa4, #4aa96c);
   background-size: 400% 400%;
   animation: animasiBegron 15s ease infinite;
   width: 100%;
@@ -18,15 +26,15 @@ html {
 }
 
 .kontener2 h1 {
-  color: #E0D6EB;
+  color: #f5f5f5;
 }
 
 .kontener2 .tombol {
-  padding: 10px 30px;
+  padding: 10px 30px 10px 30px;
   background: transparent;
-  color: #E0D6EB;
-  border: 2px solid #E0D6EB;
+  color: #BCCFD7;
   outline: none;
+  border: 2px solid #BCCFD7;
   border-radius: 10px;
   font-weight: bold;
   font-family: 'Poppins', sans-serif;
@@ -34,10 +42,11 @@ html {
 
 .kontener2 .tombol:hover {
   cursor: pointer;
-  background: #E0D6EB;
-  color: #2E2A3B;
-  border: 2px solid #E0D6EB;
+  padding: 10px 30px 10px 30px;
+  background: #BCCFD7;
+  color: #f5f5f5;
   outline: none;
+  border: 2px solid #BCCFD7;
   border-radius: 10px;
   font-weight: bold;
   font-family: 'Poppins', sans-serif;
@@ -50,12 +59,12 @@ html {
 
 .dalemnya_kontener {
   text-align: center;
-  background: #3C3B4E;
+  background: #867ae9;
   width: 100%;
   height: 94%;
   overflow: hidden;
   position: relative;
-  border-radius: 10px;
+  border-radius: 10px 10px 10px 10px;
 }
 
 .dalemnya_halaman {
@@ -65,24 +74,22 @@ html {
   width: 100%;
   height: 100%;
   -webkit-transition: -webkit-transform 0.3s;
+
 }
 
 section .gambar {
   border-radius: 10px;
-  width: 300px;  /* Mengatur lebar gambar */
-  height: 450px; /* Mengatur tinggi gambar */
-  object-fit: cover; /* Menjaga proporsi gambar */
 }
 
 section .ucapan {
   font-weight: bold;
   font-family: 'Poppins', sans-serif;
   font-size: 24px;
-  color: #E0D6EB;
+  color: #404040;
 }
 
 section .isiucapan {
-  color: #E1BEE7;
+  color: #707070;
   width: 82%;
   font-weight: 400;
   font-family: 'Poppins', sans-serif;
@@ -90,7 +97,7 @@ section .isiucapan {
 }
 
 section.halaman1 {
-  background: #4A3F5A;
+  background: #ff96ad;
   -webkit-transition-delay: 0s;
 }
 
@@ -102,11 +109,11 @@ section.halaman1 {
 .halaman1 .isiucapan1 {
   display: inline-block;
   width: 80%;
-  color: #E0D6EB;
+  color: #f5f5f5;
 }
 
 section.halaman2 {
-  background: #5E4B66;
+  background: #BCCFD7;
   -webkit-transition-delay: 0.05s;
 }
 
@@ -118,11 +125,11 @@ section.halaman2 {
 .halaman2 .isiucapan2 {
   display: inline-block;
   width: 80%;
-  color: #E0D6EB;
+  color: #404040;
 }
 
 section.halaman3 {
-  background: #766283;
+  background: #D3B0AD;
   -webkit-transition-delay: 0.1s;
 }
 
@@ -134,11 +141,11 @@ section.halaman3 {
 .halaman3 .isiucapan3 {
   display: inline-block;
   width: 80%;
-  color: #E0D6EB;
+  color: #f5f5f5;
 }
 
 section.halaman4 {
-  background: #9A8CAA;
+  background: #f1ca89;
   -webkit-transition-delay: 0.15s;
 }
 
@@ -162,15 +169,17 @@ section.after {
   opacity: 0.2;
 }
 
+
+
 .judul_halaman {
   color: white;
   font-weight: 500;
   font-size: 1.5rem;
-  font-family: ' Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-align: center;
   margin: 0;
   line-height: 70px;
-  -webkit-user-select: none;
+  -webkit-user-select: halaman1;
 }
 
 .page-halaman1 section.halaman1 {
@@ -202,7 +211,7 @@ section.after {
 }
 
 .page-halaman2 section.halaman4 {
-  -webkit-transition-delay: 0.15s;
+  -webkit-transition-delay: 0.05s;
 }
 
 .buka_menu section {
@@ -214,20 +223,24 @@ section.after {
   -webkit-transition-delay: 0.15s;
 }
 
+
 .buka_menu section.halaman2 {
   -webkit-transform: translateY(140px);
   -webkit-transition-delay: 0.1s;
 }
+
 
 .buka_menu section.halaman3 {
   -webkit-transform: translateY(210px);
   -webkit-transition-delay: 0.05s;
 }
 
+
 .buka_menu section.halaman4 {
   -webkit-transform: translateY(280px);
   -webkit-transition-delay: 0s;
 }
+
 
 .buka_menu.page-halaman1 section.halaman1 {
   -webkit-transition-delay: 0s;
