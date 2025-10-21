@@ -13,6 +13,16 @@ function PindahKeHalaman(page) {
       sections[i].classList.add('after');
     }
   }
-  dalemnya_kontener.classList.remove('buka_menu', 'page-halaman1', 'page-halaman2');
+  dalemnya_kontener.classList.remove('buka_menu');
+  pages.forEach(p => dalemnya_kontener.classList.remove('page-' + p));
   dalemnya_kontener.classList.add('page-' + pages[page]);
+  
 }
+$(document).ready(function () {
+  var audio = new Audio('audio/Dewa.mp3');
+  $("#tombol").click(function () {
+    $("#kontener2").fadeOut();
+    $("#kontener").fadeIn("4000");
+    audio.play();
+  });
+});
